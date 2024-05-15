@@ -1,0 +1,20 @@
+{
+  "name": "paladini-dark",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "14.2.3",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-vivus": "^0.0.2",
+    "vivus": "^0.4.6"
+  }
+}
