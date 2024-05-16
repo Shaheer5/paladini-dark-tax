@@ -44,6 +44,18 @@ export default function RootLayout({ children }) {
           href="/favicons/safari-pinned-tab.svg"
           color="#5bbad5"
         />
+        <link
+          rel="preload"
+          as="image"
+          href="/media/BradPicture.webp"
+          fetchpriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/media/BradPicture@2x.webp"
+          fetchpriority="high"
+        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#11365a" />
         <title>{metadata.title}</title>

@@ -215,6 +215,7 @@ const Hero = () => {
                 src="media/BradPicture@2x.webp"
                 width="850"
                 height="966"
+                fetchPriority="high"
               />
             </picture>
           </div>
@@ -237,6 +238,7 @@ const Hero = () => {
                     src="media/BradPicture.webp"
                     width="425"
                     height="483"
+                    fetchPriority="high"
                   />
                 </picture>
               </div>
