@@ -199,24 +199,46 @@ const Hero = () => {
                 <p>of Experience</p>
               </div>
             </div>
-            <img
-              alt="BradPicture"
-              height="966"
-              width="850"
-              className="BradPicture"
-              src="media/BradPicture@2x.webp"
-            />
+            <picture>
+              {/* Source for desktop */}
+              <source
+                media="(min-width: 768px)"
+                srcSet="media/BradPicture@2x.webp"
+                type="image/webp"
+                fetchMode="image"
+                fetchPriority="high"
+              />
+              {/* Fallback for desktop */}
+              <img
+                alt="BradPicture"
+                className="BradPicture"
+                src="media/BradPicture@2x.webp"
+                width="850"
+                height="966"
+              />
+            </picture>
           </div>
           <div className="col-lg-5 col-md-8 col-sm-12 padding-top-72 SMpaddingTop-0">
             <div className="row justify-content-end">
               <div className="text-center mobileBradPicture">
-                <img
-                  alt="BradPicture"
-                  height="483"
-                  width="425"
-                  className="imageWidth"
-                  src="media/BradPicture.webp"
-                />
+                <picture>
+                  {/* Source for mobile */}
+                  <source
+                    media="(max-width: 767px)"
+                    srcSet="media/BradPicture.webp"
+                    type="image/webp"
+                    fetchMode="image"
+                    fetchPriority="high"
+                  />
+                  {/* Fallback for mobile */}
+                  <img
+                    alt="BradPicture"
+                    className="imageWidth"
+                    src="media/BradPicture.webp"
+                    width="425"
+                    height="483"
+                  />
+                </picture>
               </div>
               <div className="col-lg-11 col-md-12 siftCol">
                 <form id="formtax" action="" className="" method="POST">
