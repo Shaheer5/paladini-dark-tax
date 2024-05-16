@@ -8,7 +8,7 @@ const Founder = () => {
           <div className="col-lg-5 col-md-6 col-sm-12 show-on-scroll animation-top">
             <div className="d-flex justify-content-center">
               <div className="JoeVideo">
-                <video width="232" height="auto" id="bradVideo">
+                <video width="240" height="420" id="bradVideo">
                   <source src="media/bardpaladini.m4v" type="video/mp4" />
                   <track
                     src="captions_en.vtt"
