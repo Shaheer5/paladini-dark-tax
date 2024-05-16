@@ -10,12 +10,17 @@ import FAQ from "@/components/FAQ";
 import FreeConsultation from "@/components/FreeConsultation";
 import Copyright from "@/components/Copyright";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 import { CustomJS } from "@/components/CustomJS";
 
 export default function Home() {
   return (
     <main>
+      <CustomJS />
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js"
+        defer
+      />
+      <script defer src="/js/index.js" />
       <Hero />
       <LogoSlider />
       <Testimonial />

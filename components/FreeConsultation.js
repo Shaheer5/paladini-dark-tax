@@ -1,6 +1,30 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 
 const FreeConsultation = () => {
+  const [phone, setPhone] = useState("");
+
+  const handleInput = (e) => {
+    let input = e.target.value.replace(/\D/g, ""); // Remove all non-numeric characters
+
+    // Apply the US phone number format
+    if (input.length > 0) {
+      input = input.replace(/^1/, ""); // Remove leading '1' if present
+      if (input.length > 3) {
+        input = `(${input.slice(0, 3)}) ${input.slice(3)}`;
+      }
+      if (input.length > 9) {
+        input = `${input.slice(0, 9)}-${input.slice(9)}`;
+      }
+    }
+
+    if (input.length > 10) {
+      input = input.slice(0, 14);
+    }
+
+    setPhone(input);
+  };
   return (
     <section className="FreeConsultation padding-top-64 padding-bottom-96">
       <div className="container">
@@ -79,8 +103,10 @@ const FreeConsultation = () => {
                             type="tel"
                             name="contactNumber"
                             id="contactNumber"
-                            required
                             className="form-control"
+                            required
+                            value={phone}
+                            onInput={handleInput}
                           />
                         </div>
                         <div className="col-lg-6 col-md-12 padding-bottom-40 show-on-scroll animation-top">

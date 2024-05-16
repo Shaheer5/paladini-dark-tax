@@ -1,3 +1,5 @@
+"use client"
+
 // inout masking
 document.addEventListener("DOMContentLoaded", function () {
   const e = document.getElementById("phonemobile");

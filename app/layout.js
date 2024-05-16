@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Script from "next/script";
 import "../css/style.css";
 import "../css/animation.css";
 import "../css/aos.css";
@@ -8,7 +7,6 @@ import "../css/custom_style.css";
 
 // components
 import { BootstrapClient } from "@/components/BootstrapClient";
-// import { CustomJS } from "@/components/CustomJS";
 
 export const metadata = {
   title: "Paladini Law",
@@ -23,47 +21,36 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
-        <title>{metadata.title}</title>
         <link
           rel="apple-touch-icon"
-          sizes="180x180"
-          href="/media/paladini.ico"
+          sizes="76x76"
+          href="/favicons/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/media/paladini.ico"
+          href="/favicons/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/media/paladini.ico"
+          href="/favicons/favicon-16x16.png"
         />
-        <link rel="stylesheet" href="/css/style.css" />
-        <link rel="stylesheet" href="/css/bootstrap.css" />
-        <link rel="stylesheet" href="/css/custom_style.css" />
-        <link rel="stylesheet" href="/css/aos.css" />
-        <link rel="stylesheet" href="/css/animation.css" />
+        <link rel="manifest" href="/favicons/site.webmanifest" />
         <link
-          rel="preload"
-          as="image"
-          href="/media/BradPicture.webp"
-          fetchpriority="high"
+          rel="mask-icon"
+          href="/favicons/safari-pinned-tab.svg"
+          color="#5bbad5"
         />
-        <link
-          rel="preload"
-          as="image"
-          href="/media/BradPicture@2x.webp"
-          fetchpriority="high"
-        />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js" defer></script>
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#11365a" />
+        <title>{metadata.title}</title>
       </Head>
       <body>
         {children}
         <BootstrapClient />
-        {/* <CustomJS /> */}
       </body>
     </html>
   );

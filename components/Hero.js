@@ -20,6 +20,10 @@ const Hero = () => {
       }
     }
 
+    if (input.length > 10) {
+      input = input.slice(0, 14);
+    }
+
     setPhone(input);
   };
   return (
@@ -29,14 +33,13 @@ const Hero = () => {
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-12 padding-top-72 padding-bottom-72 position-relative tabletPaddingTopBottom">
             <div className="row">
-              <div className="col-lg-9 col-md-12">
-                <div className="heroHeading">
+              <div className="col-lg-11 col-md-12">
+                <div className="heroHeading position-relative">
                   <h1>Don’t Face IRS & State Tax Issues Alone</h1>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-12 padding-top-40 mobileHideArrow">
                 <svg
                   id="bannerArrow"
+                  className="mobileHideArrow"
                   width="201"
                   height="174"
                   viewBox="0 0 201 174"
@@ -200,7 +203,7 @@ const Hero = () => {
               alt="BradPicture"
               height="966"
               width="850"
-              className="lazy lazyload BradPicture"
+              className="BradPicture"
               src="media/BradPicture@2x.webp"
             />
           </div>
@@ -211,7 +214,7 @@ const Hero = () => {
                   alt="BradPicture"
                   height="483"
                   width="425"
-                  className="lazy lazyload imageWidth"
+                  className="imageWidth"
                   src="media/BradPicture.webp"
                 />
               </div>

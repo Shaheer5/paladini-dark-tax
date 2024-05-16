@@ -415,6 +415,9 @@ a {
   display: none;
 }
 #bannerArrow {
+  right: -30px;
+  top: 15%;
+  position: absolute;
   stroke: #5CC3FB;
   stroke-width: 4;
   stroke-linecap: round;
@@ -816,7 +819,7 @@ a {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-  /* visibility: hidden; */
+  visibility: hidden;
   transform: rotateX(180deg);
   rotate:30deg;
 }
@@ -954,7 +957,7 @@ a {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 /*footer section css start here
 =========================================================================*/
