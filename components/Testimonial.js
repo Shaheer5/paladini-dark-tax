@@ -35,8 +35,8 @@ const Testimonial = () => {
                         <div className="text-center">
                           <img
                             src="media/PlayBtn.svg"
-                            width="99px"
-                            height="99px"
+                            width="99"
+                            height="99"
                             className="lazy lazyload"
                             alt="Youtuve icon"
                           />
@@ -55,8 +55,8 @@ const Testimonial = () => {
                         <div className="text-center">
                           <img
                             src="media/PlayBtn.svg"
-                            width="99px"
-                            height="99px"
+                            width="99"
+                            height="99"
                             className="lazy lazyload"
                             alt="Youtuve icon"
                           />
@@ -231,6 +231,7 @@ const Testimonial = () => {
         width="1440"
         height="687"
         className="TestimonialsBG lazy lazyload "
+        alt="testimonial bg"
       />
     </section>
   );

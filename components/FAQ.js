@@ -84,7 +84,7 @@ const FAQ = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <div className="accordion-header" id="headingOne">
+                <div className="accordion-header" id="headingTwo">
                   <button
                     type="button"
                     className="accordion-button collapsed"
@@ -150,7 +150,7 @@ const FAQ = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <div className="accordion-header" id="headingOne">
+                <div className="accordion-header" id="headingThree">
                   <button
                     type="button"
                     className="accordion-button collapsed"
@@ -196,7 +196,7 @@ const FAQ = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <div className="accordion-header" id="headingOne">
+                <div className="accordion-header" id="headingFour">
                   <button
                     type="button"
                     className="accordion-button collapsed"
@@ -236,7 +236,7 @@ const FAQ = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <div className="accordion-header" id="headingOne">
+                <div className="accordion-header" id="headingFive">
                   <button
                     type="button"
                     className="accordion-button collapsed"

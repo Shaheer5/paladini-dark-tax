@@ -27,8 +27,8 @@ const Founder = () => {
                   <img
                     src="media/youtubeIcon.svg"
                     id="PlayButton"
-                    width="75px"
-                    height="50px"
+                    width="75"
+                    height="50"
                     alt="video button"
                   />
                 </button>

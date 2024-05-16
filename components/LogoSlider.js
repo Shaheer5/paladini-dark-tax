@@ -18,8 +18,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="newjersey State"
-                  height="120px"
-                  width="124px"
+                  height="120"
+                  width="124"
                   className="lazy lazyload badgeImage"
                   src="media/newjerseyState.png"
                 />
@@ -37,8 +37,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="nysba"
-                  height="100px"
-                  width="242px"
+                  height="100"
+                  width="242"
                   className="lazy lazyload badgeImage"
                   src="media/nysba.png"
                 />
@@ -56,8 +56,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="sboc"
-                  height="100px"
-                  width="263px"
+                  height="100"
+                  width="263"
                   className="lazy lazyload badgeImage"
                   src="media/sboc.png"
                 />
@@ -75,8 +75,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="us-news"
-                  height="84px"
-                  width="221px"
+                  height="84"
+                  width="221"
                   className="lazy lazyload badgeImage"
                   src="media/us-news.png"
                 />
@@ -94,8 +94,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="thumb_astps-updated"
-                  height="112px"
-                  width="150px"
+                  height="112"
+                  width="150"
                   className="lazy lazyload badgeImage"
                   src="media/thumb_astps-updated.png"
                 />
@@ -113,8 +113,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="newjersey State"
-                  height="120px"
-                  width="124px"
+                  height="120"
+                  width="124"
                   className="lazy lazyload badgeImage"
                   src="media/newjerseyState.png"
                 />
@@ -132,8 +132,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="nysba"
-                  height="100px"
-                  width="242px"
+                  height="100"
+                  width="242"
                   className="lazy lazyload badgeImage"
                   src="media/nysba.png"
                 />
@@ -151,8 +151,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="sboc"
-                  height="100px"
-                  width="263px"
+                  height="100"
+                  width="263"
                   className="lazy lazyload badgeImage"
                   src="media/sboc.png"
                 />
@@ -170,8 +170,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="us-news"
-                  height="84px"
-                  width="221px"
+                  height="84"
+                  width="221"
                   className="lazy lazyload badgeImage"
                   src="media/us-news.png"
                 />
@@ -189,8 +189,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="thumb_astps-updated"
-                  height="112px"
-                  width="150px"
+                  height="112"
+                  width="150"
                   className="lazy lazyload badgeImage"
                   src="media/thumb_astps-updated.png"
                 />
@@ -208,8 +208,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="newjersey State"
-                  height="120px"
-                  width="124px"
+                  height="120"
+                  width="124"
                   className="lazy lazyload badgeImage"
                   src="media/newjerseyState.png"
                 />
@@ -227,8 +227,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="nysba"
-                  height="100px"
-                  width="242px"
+                  height="100"
+                  width="242"
                   className="lazy lazyload badgeImage"
                   src="media/nysba.png"
                 />
@@ -246,8 +246,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="sboc"
-                  height="100px"
-                  width="263px"
+                  height="100"
+                  width="263"
                   className="lazy lazyload badgeImage"
                   src="media/sboc.png"
                 />
@@ -265,8 +265,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="newjersey State"
-                  height="120px"
-                  width="124px"
+                  height="120"
+                  width="124"
                   className="lazy lazyload badgeImage"
                   src="media/newjerseyState.png"
                 />
@@ -284,8 +284,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="nysba"
-                  height="100px"
-                  width="242px"
+                  height="100"
+                  width="242"
                   className="lazy lazyload badgeImage"
                   src="media/nysba.png"
                 />
@@ -303,8 +303,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="sboc"
-                  height="100px"
-                  width="263px"
+                  height="100"
+                  width="263"
                   className="lazy lazyload badgeImage"
                   src="media/sboc.png"
                 />
@@ -322,8 +322,8 @@ const LogoSlider = () => {
                 />
                 <img
                   alt="us-news"
-                  height="84px"
-                  width="221px"
+                  height="84"
+                  width="221"
                   className="lazy lazyload badgeImage"
                   src="media/us-news.png"
                 />

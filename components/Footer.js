@@ -73,7 +73,7 @@ const Footer = () => {
                 <div>
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.2470560894126!2d-74.0775034!3d40.932252299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fb020c153835%3A0xabae693cd9f88ed4!2s80%20W%20Century%20Rd%2C%20Paramus%2C%20NJ%2007652%2C%20USA!5e0!3m2!1sen!2s!4v1715064085834!5m2!1sen!2s"
-                    width="100%"
+                    width="300"
                     height="174"
                     style={{ border: 0 }}
                     allowFullScreen=""
@@ -106,7 +106,7 @@ const Footer = () => {
                 <div>
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3020.8132586462557!2d-74.4607048!3d40.7881194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a7252bcc6771%3A0xfcbb15b2534c5a61!2sPaladini%20Law%2C%20A%20Tax%20Law%20Firm!5e0!3m2!1sen!2s!4v1715064263647!5m2!1sen!2s"
-                    width="100%"
+                    width="300"
                     height="174"
                     style={{ border: 0 }}
                     allowFullScreen=""

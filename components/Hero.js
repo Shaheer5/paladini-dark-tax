@@ -98,8 +98,8 @@ const Hero = () => {
                 <div className="col-lg-1 col-md-1 col-sm-2 col-2 text-center paddingL-0 hero-tick">
                   <img
                     src="media/icon-CheckSignle.svg"
-                    width="24px"
-                    height="24px"
+                    width="24"
+                    height="24"
                     alt="check icon"
                   />
                 </div>
@@ -124,10 +124,10 @@ const Hero = () => {
                   <div className="heroBadge text-center">
                     <div className="text-center">
                       <img
-                        src="media/LogoReviewTax 1.svg"
+                        src="media/LogoReviewTax1.svg"
                         width="160"
                         height="29"
-                        alt="ReviewTax "
+                        alt="ReviewTax"
                         className="d-block imageWidth m-auto"
                       />
                     </div>
@@ -205,8 +205,6 @@ const Hero = () => {
                 media="(min-width: 768px)"
                 srcSet="media/BradPicture@2x.webp"
                 type="image/webp"
-                fetchMode="image"
-                fetchPriority="high"
               />
               {/* Fallback for desktop */}
               <img
@@ -228,8 +226,6 @@ const Hero = () => {
                     media="(max-width: 767px)"
                     srcSet="media/BradPicture.webp"
                     type="image/webp"
-                    fetchMode="image"
-                    fetchPriority="high"
                   />
                   {/* Fallback for mobile */}
                   <img
@@ -243,7 +239,7 @@ const Hero = () => {
                 </picture>
               </div>
               <div className="col-lg-11 col-md-12 siftCol">
-                <form id="formtax" action="" className="" method="POST">
+                <form id="formtax" method="POST">
                   <div className="herder-form">
                     <div className="text-center position-relative zindex1">
                       <h2>Request a Free Consultation</h2>
@@ -375,10 +371,10 @@ const Hero = () => {
                 <div className="heroBadge text-center">
                   <div className="text-center">
                     <img
-                      src="media/LogoReviewTax 1.svg"
+                      src="media/LogoReviewTax1.svg"
                       width="160"
                       height="29"
-                      alt="ReviewTax "
+                      alt="ReviewTax"
                       className="d-block imageWidth m-auto"
                     />
                   </div>
